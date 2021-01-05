@@ -1,5 +1,5 @@
-# ⚙ GSAP Boilerplate
-This project is used as a boilerplate for tasks in the "GSAP" course in Booost. It initializes a base application with a webpack dev server.
+# ⚙ JavaScript Boilerplate
+This project is used as a boilerplate for tasks in the "JavaScript" course in Booost. It initializes a base application with a webpack dev server.
 
 Includes:
 * 📦 Bundling via Webpack
