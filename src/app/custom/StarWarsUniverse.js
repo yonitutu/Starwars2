@@ -1,13 +1,16 @@
-let entities;
-
-function setup(){
-    entities = new StarWarsUniverse();
+class StarWarsUniverse{
+    constructor(){
+        this.entities = [];
+    }
 }
 
-class StarWarsUniverse{
+class StarWarsUniverse extends Entity{
 
-   constructor(){
-       this.entities = [];
-   }
+    async init(){
+        let entity = new Entity();
+        let response  = await fetch('https://swapi.booost.bg/api');
+        let data = await response.json();
+        entity = data;
+    }
 
 }
